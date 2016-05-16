@@ -1,0 +1,8 @@
+extern printd(x);
+def baz(x)
+	if x then
+		printd(123)
+	else
+		printd(456);
+baz(0);
+

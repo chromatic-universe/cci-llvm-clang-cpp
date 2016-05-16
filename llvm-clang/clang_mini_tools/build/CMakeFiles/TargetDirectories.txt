@@ -1,0 +1,5 @@
+/cci/cci_src/master/git_repo_1/llvm-clang/clang_mini_tools/build/CMakeFiles/cci_mini_clang.dir
+/cci/cci_src/master/git_repo_1/llvm-clang/clang_mini_tools/build/CMakeFiles/cci_mini_driver.dir
+/cci/cci_src/master/git_repo_1/llvm-clang/clang_mini_tools/build/CMakeFiles/cci_mini_lex.dir
+/cci/cci_src/master/git_repo_1/llvm-clang/clang_mini_tools/build/CMakeFiles/cci_mini_clang_static.dir
+/cci/cci_src/master/git_repo_1/llvm-clang/clang_mini_tools/build/CMakeFiles/cci_mini_diag.dir

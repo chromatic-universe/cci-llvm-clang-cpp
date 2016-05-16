@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcci_mini_clang_static.a  CMakeFiles/cci_mini_clang_static.dir/clang_mini_diag.cpp.o CMakeFiles/cci_mini_clang_static.dir/clang_mini_lex.cpp.o CMakeFiles/cci_mini_clang_static.dir/clang_mini_driver.cpp.o CMakeFiles/cci_mini_clang_static.dir/clang_mini_preproc.cpp.o
+/usr/bin/ranlib libcci_mini_clang_static.a

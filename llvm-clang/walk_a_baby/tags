@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAGS	Makefile	/^CFLAGS = -Wall -Qunused-arguments -Wextra -std=c++11 -I..\/..\/include \\$/;"	m
+CXX	Makefile	/^CXX     = clang++$/;"	m
+DBGBIN	Makefile	/^DBGBIN = $(DBGDIR)\/$(TARGET_BIN)$/;"	m
+DBGCFLAGS	Makefile	/^DBGCFLAGS = -g -O0 -DDEBUG -pg $/;"	m
+DBGDIR	Makefile	/^DBGDIR = debug$/;"	m
+DBGOBJS	Makefile	/^DBGOBJS = $(addprefix $(DBGDIR)\/, $(OBJS))$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+RELBIN	Makefile	/^RELBIN = $(RELDIR)\/$(TARGET_BIN)$/;"	m
+RELCFLAGS	Makefile	/^RELCFLAGS = -O3 -DNDEBUG$/;"	m
+RELDIR	Makefile	/^RELDIR = release$/;"	m
+RELOBJS	Makefile	/^RELOBJS = $(addprefix $(RELDIR)\/, $(OBJS))$/;"	m
+SRCS	Makefile	/^SRCS = walk_a_baby.cpp walk_a_baby_lex.cpp walk_a_baby_parse.cpp$/;"	m
+TARGET_BIN	Makefile	/^TARGET_BIN = walk-a-baby-k $/;"	m
+acquire_token	walk_a_baby_lex.cpp	/^int walk_a_baby_lex::acquire_token()$/;"	f	class:walk_a_baby_lex
+bin_op_precedence	walk_a_baby_parse.cpp	/^std::map<char,int> walk_a_baby_parse_k::bin_op_precedence= { {'<', 10} , {'+' , 20} , {'=' , 20} , {'*' , 40} };$/;"	m	class:walk_a_baby_parse_k	file:
+current_lex_token	walk_a_baby_parse.cpp	/^int walk_a_baby_parse_k::current_lex_token = 0;$/;"	m	class:walk_a_baby_parse_k	file:
+extern_prefix	walk_a_baby_lex.cpp	/^std::string walk_a_baby_lex::extern_prefix = "extern";$/;"	m	class:walk_a_baby_lex	file:
+function_prefix	walk_a_baby_lex.cpp	/^std::string walk_a_baby_lex::function_prefix = "def";$/;"	m	class:walk_a_baby_lex	file:
+get_tok_precedence	walk_a_baby_parse.cpp	/^int walk_a_baby_parse_k::get_tok_precedence()$/;"	f	class:walk_a_baby_parse_k
+handle_definition	walk_a_baby_parse.cpp	/^void walk_a_baby_parse_k::handle_definition()$/;"	f	class:walk_a_baby_parse_k
+handle_extern	walk_a_baby_parse.cpp	/^void walk_a_baby_parse_k::handle_extern()$/;"	f	class:walk_a_baby_parse_k
+handle_top_level_expression	walk_a_baby_parse.cpp	/^void walk_a_baby_parse_k::handle_top_level_expression()$/;"	f	class:walk_a_baby_parse_k
+helper	walk_a_baby.cpp	/^namespace helper {$/;"	n	file:
+m_numeric_val	walk_a_baby_lex.cpp	/^int walk_a_baby_lex::m_numeric_val = 0;$/;"	m	class:walk_a_baby_lex	file:
+m_string_ident_val	walk_a_baby_lex.cpp	/^std::string walk_a_baby_lex::m_string_ident_val = "";$/;"	m	class:walk_a_baby_lex	file:
+main	walk_a_baby.cpp	/^int main( int argc , char* argv[] )$/;"	f
+make_unique	walk_a_baby.cpp	/^    make_unique(Args &&... args) {$/;"	f	namespace:helper
+next_token	walk_a_baby_parse.cpp	/^int walk_a_baby_parse_k::next_token()$/;"	f	class:walk_a_baby_parse_k
+open_stream	walk_a_baby_lex.cpp	/^void walk_a_baby_lex::open_stream( const std::string& file_name )$/;"	f	class:walk_a_baby_lex
+open_stream	walk_a_baby_lex.cpp	/^void walk_a_baby_lex::open_stream()$/;"	f	class:walk_a_baby_lex
+operator <<	walk_a_baby_lex.cpp	/^std::ostream& operator<<( std::ostream &ostr, const walk_a_baby::walk_a_baby_lex& wabl )$/;"	f
+parse_bin_op_rhs	walk_a_baby_parse.cpp	/^std::unique_ptr<expr_ast> walk_a_baby_parse_k::parse_bin_op_rhs( int expr_prec ,$/;"	f	class:walk_a_baby_parse_k
+parse_definition	walk_a_baby_parse.cpp	/^std::unique_ptr<function_ast> walk_a_baby_parse_k::parse_definition()$/;"	f	class:walk_a_baby_parse_k
+parse_expression	walk_a_baby_parse.cpp	/^std::unique_ptr<expr_ast> walk_a_baby_parse_k::parse_expression()$/;"	f	class:walk_a_baby_parse_k
+parse_extern	walk_a_baby_parse.cpp	/^std::unique_ptr<prototype_ast> walk_a_baby_parse_k::parse_extern()$/;"	f	class:walk_a_baby_parse_k
+parse_identifier_expr	walk_a_baby_parse.cpp	/^std::unique_ptr<expr_ast> walk_a_baby_parse_k::parse_identifier_expr()$/;"	f	class:walk_a_baby_parse_k
+parse_numeric_expr	walk_a_baby_parse.cpp	/^std::unique_ptr<expr_ast> walk_a_baby_parse_k::parse_numeric_expr()$/;"	f	class:walk_a_baby_parse_k
+parse_paren_expr	walk_a_baby_parse.cpp	/^std::unique_ptr<expr_ast> walk_a_baby_parse_k::parse_paren_expr()$/;"	f	class:walk_a_baby_parse_k
+parse_primary	walk_a_baby_parse.cpp	/^std::unique_ptr<expr_ast> walk_a_baby_parse_k::parse_primary()$/;"	f	class:walk_a_baby_parse_k
+parse_prototype	walk_a_baby_parse.cpp	/^std::unique_ptr<prototype_ast> walk_a_baby_parse_k::parse_prototype()$/;"	f	class:walk_a_baby_parse_k
+parse_top_level_expr	walk_a_baby_parse.cpp	/^std::unique_ptr<function_ast> walk_a_baby_parse_k::parse_top_level_expr()$/;"	f	class:walk_a_baby_parse_k
+perform	walk_a_baby_parse.cpp	/^void walk_a_baby_driver::perform()$/;"	f	class:walk_a_baby_driver
+stream_factory	walk_a_baby_lex.cpp	/^void walk_a_baby_lex::stream_factory( const stream_type st )$/;"	f	class:walk_a_baby_lex
+stream_p	walk_a_baby_lex.cpp	/^int walk_a_baby_lex::stream_p()$/;"	f	class:walk_a_baby_lex
+walk_a_baby_driver	walk_a_baby_parse.cpp	/^walk_a_baby_driver::walk_a_baby_driver ()$/;"	f	class:walk_a_baby_driver
+walk_a_baby_lex	walk_a_baby_lex.cpp	/^walk_a_baby_lex::walk_a_baby_lex()$/;"	f	class:walk_a_baby_lex
+walk_a_baby_parse_k	walk_a_baby_parse.cpp	/^walk_a_baby_parse_k::walk_a_baby_parse_k()$/;"	f	class:walk_a_baby_parse_k
+~walk_a_baby_driver	walk_a_baby_parse.cpp	/^walk_a_baby_driver::~walk_a_baby_driver()$/;"	f	class:walk_a_baby_driver
+~walk_a_baby_lex	walk_a_baby_lex.cpp	/^walk_a_baby_lex::~walk_a_baby_lex()$/;"	f	class:walk_a_baby_lex
+~walk_a_baby_parse_k	walk_a_baby_parse.cpp	/^walk_a_baby_parse_k::~walk_a_baby_parse_k()$/;"	f	class:walk_a_baby_parse_k
